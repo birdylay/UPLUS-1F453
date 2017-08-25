@@ -10,7 +10,7 @@ class TPLApp extends React.Component {
 	}
 
   getPrediction(branchName, programType, time) {
-  	axios.post("http://localhost:8080/api/watson", {
+  	axios.post("/api/watson", {
         branchName: branchName,
         programType: programType,
         time: time
@@ -29,7 +29,7 @@ class TPLApp extends React.Component {
   }
 
   componentDidMount() {
-    this.getPrediction('Agincourt', 'Cultural', '3:30-6 pm');
+    //this.getPrediction('Agincourt', 'Cultural', '3:30-6 pm');
   }
 
 	render() {
