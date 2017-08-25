@@ -1,0 +1,25 @@
+{
+  "name": "tpl",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekchatrath/UPLUS-1F453.git"
+  },
+  "author": "Abhishek, Franz, Jarsmeka, Tian, Tonny",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/abhishekchatrath/UPLUS-1F453/issues"
+  },
+  "homepage": "https://github.com/abhishekchatrath/UPLUS-1F453#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
